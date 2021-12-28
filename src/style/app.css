@@ -1,0 +1,9 @@
+
+.imgHover:hover {
+    background-color: white;
+}
+
+.imgText:hover {
+    cursor: pointer;
+    color: black;
+}
