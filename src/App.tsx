@@ -9,13 +9,10 @@ import { VStack } from '@chakra-ui/react'
 
 class App extends Component<Props, State> {
 
-  componentDidMount = () => {
-    console.log(this.props)
-  }
 
+  
   event = () => {
-    this.props.incQuantity!()
-    console.log(`This is github icon!`) 
+    window.open('https://github.com/Muhaimini/TASKAPP')
   }
 
   render = (): JSX.Element => {

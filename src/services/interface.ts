@@ -34,4 +34,5 @@ export interface dispatchToProps {
 
 export interface Props extends dispatchToProps {
     datastate: initialState
+    history?: any
 }
